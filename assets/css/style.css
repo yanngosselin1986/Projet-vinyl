@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
+/*
+head
+*/
+nav {
+    height: 100px;
+    width: 100%;
+    background-color: #853832;
+}
+.homeButton {
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    float: left;
+    animation: animation_rotate;
+}
+
+@keyframes animation_rotate {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+#searchBarIndex {
+    float: left;
+    width: 50%;
+    height: 3rem;
+    margin-top: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+    border: solid;
+    border-color: #3B3561;
+}
+.buttonContainer {
+    float: right;
+    width: 20%;
+}
+#account {
+    width: 50%;
+    height: 100px;
+    font-size: 25px;
+    background-color: #592622;
+    color: white;
+    transition: transform.2s;
+    border-color: black;
+}
+#account:hover, #shoppingCart:hover, .categoryButton:hover, .jacket:hover{
+    transform: scale(1.1);
+}
+.categoryButton:hover, #shoppingCart:hover, #account:hover{
+    border-radius: 5px;
+}
+#shoppingCart {
+    float: left;
+    width: 50%;
+    height: 100px;
+    font-size: 25px;
+    background-color: #592622;
+    color: white;
+    transition: transform.2s;
+    border-color: black;
+}
+#searchButton {
+    float: left;
+    width: 80px;
+    height: 80px;
+}
+.category {
+    float: left;
+    width: 100%;
+    height: 50px;
+    background-color: #292f36;
+}
+.categoryButtonContainer {
+    text-align: center;
+}
+.categoryButton {
+    width: 10%;
+    height: 45px;
+    transition: transform.2s;
+    margin-top: 2px;
+    margin-left: 5%;
+    background-color: #191d21;
+    border-color: transparent;
+    color: white;
+}
+/*
+fin head
+/*
+/* 
+body
+*/
+body{
+    background-image: url("../img/bgindex2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Piedra', cursive;
+    color: white;
+    font-size: 15px;
+}
+.titleCategory{
+    font-size: 50px;
+    padding-top: 3%;
+    text-align: center;
+}
+.jacket{
+    text-align: center;
+    float: left;
+    width: 25%;
+    transition: transform.2s;
+}
+.trend, .news, .mostSell, .commingSoon{
+    width: 100%;
+    height: 25rem;
+    float: left;
+}
+/*
+Fin du body
+*/
+/*
+footer
+*/
+p {
+    margin-left: 1em;
+}
+img {
+    vertical-align: middle;
+    margin-left: 1em;
+}
+a {
+    color: black;
+}
+.page1 {
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.footer {
+    float: left;
+    width: 100%;
+    height: 250px;
+    background-color: #853832b6;;
+}
+.contact {
+    width: 25%;
+    height: 250px;
+    float: left;
+}
+.mention {
+    width: 25%;
+    height: 250px;
+    float: left;
+}
+.groupe {
+    width: 25%;
+    height: 250px;
+    float: left;
+}
+
+.help {
+    width: 25%;
+    height: 250px;
+    float: left;
+}
+/*
+fin du footer
+*/
