@@ -66,6 +66,9 @@ footer .card-header {
     box-shadow: none;
 }
 
+
+/* Media queries pour obligé le navigateur à afficher le contenu en vue desktop et tablette */
+
 @media (min-width: 992px) {
     .collapse.dont-collapse-md {
         display: block;
