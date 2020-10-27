@@ -13,18 +13,33 @@ footer a:hover {
 }
 
 .footer {
-    /* float: left; */
     width: 100%;
     height: auto;
     background-color: #853832b6;
 }
 
-footer h6 {
+footer .btn-link {
     text-transform: uppercase;
     color: #FFF;
 }
 
-footer ul {
+footer .btn-link:hover {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.card {
+    background: transparent;
+    border: none;
+}
+
+footer .card-header {
+    background: transparent;
+    border: none;
+    padding: 0;
+}
+
+footer .card-body ul {
     padding: 0;
 }
 
@@ -32,29 +47,27 @@ footer ul li {
     list-style: none;
 }
 
+
+/* 
 .contact {
     width: 25%;
     height: auto;
-    /* float: left; */
 }
 
 .mention {
     width: 25%;
     height: auto;
-    /* float: left; */
 }
 
 .groupe {
     width: 25%;
     height: auto;
-    /* float: left; */
 }
 
 .help {
     width: 25%;
     height: auto;
-    /* float: left; */
-}
+} */
 
 
 /*
