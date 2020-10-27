@@ -6,7 +6,7 @@ body {
     font-family: 'Piedra', cursive;
     color: white;
     font-size: 15px;
-    margin: 0 8px!important;
+    margin: 0 8px !important;
 }
 
 
@@ -62,16 +62,16 @@ footer .card-header {
     padding: 0;
 }
 
+.btn:focus {
+    box-shadow: none;
+}
+
 @media (min-width: 992px) {
     .collapse.dont-collapse-md {
         display: block;
         height: auto !important;
         visibility: visible;
     }
-}
-
-.btn:focus {
-    box-shadow: none;
 }
 
 
