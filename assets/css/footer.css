@@ -49,6 +49,14 @@ footer ul li {
     list-style: none;
 }
 
+@media (min-width: 992px) {
+    .collapse.dont-collapse-md {
+        display: block;
+        height: auto !important;
+        visibility: visible;
+    }
+}
+
 
 /* 
 .contact {
