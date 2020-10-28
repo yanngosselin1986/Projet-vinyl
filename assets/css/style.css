@@ -47,6 +47,14 @@ html {
     transform: scale(1.1);
 }
 
+@media (min-width: 992px) {
+    .dont-collapse-lg {
+        display: block;
+        height: auto !important;
+        visibility: visible;
+    }
+}
+
 .btn:focus{
     box-shadow: none;
 }
