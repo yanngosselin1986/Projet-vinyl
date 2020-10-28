@@ -20,6 +20,7 @@ html, body{
     width: 100%;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -37,6 +38,14 @@ hr {
     border-width: 1px 0;
     margin: 18px 0;
   }
+
+html {
+    box-sizing: border-box;
+}
+#accordion img:hover {
+    margin-bottom: 5%;
+    transform: scale(1.1);
+}
 
 .btn:focus{
     box-shadow: none;
@@ -71,3 +80,4 @@ Fin du body
 */
 /*
 footer
+
