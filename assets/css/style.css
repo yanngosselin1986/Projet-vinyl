@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
+/*
+head
+*/
+/*
+fin head
+/*
+/* 
+body
+*/
+html, body{
+    background-image: url("../img/bgindex2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Piedra', cursive;
+    color: white;
+    font-size: 15px;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* My css part */
+
+hr {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #EEEEEE99 -moz-use-text-color #FFFFFF99;
+    border-style: solid none;
+    border-width: 1px 0;
+    margin: 18px 0;
+  }
+
+html {
+    box-sizing: border-box;
+}
+#accordion img:hover {
+    margin-bottom: 5%;
+    transform: scale(1.1);
+}
+
+@media (min-width: 992px) {
+    .collapse.dont-collapse-lg {
+        display: block;
+        height: auto !important;
+        visibility: visible;
+    }
+}
+
+.btn:focus{
+    box-shadow: none;
+}
+
+.thBgOp {
+    background-color: transparent !important;
+}
+
+.thBgOp2 {
+    background-color: transparent !important;
+}
+
+.thBgCat {
+    background-color: #371614;
+    border: transparent;
+}
+
+.btn {
+    text-decoration: none;
+}
+
+/*  Leur CSS */
+
+.titleCategory{
+    font-size: 50px;
+}
+
+
+/*
+Fin du body
+*/
+/*
+footer
+
