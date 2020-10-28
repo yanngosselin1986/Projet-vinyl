@@ -67,7 +67,7 @@ footer .card-header {
 }
 
 
-/* Media queries pour obligé le navigateur à afficher le contenu en vue desktop et tablette */
+/* Media queries pour obliger le navigateur à afficher le contenu en vue desktop et tablette */
 
 @media (min-width: 992px) {
     .collapse.dont-collapse-md {
