@@ -9,40 +9,36 @@
     <title>French platine</title>
 </head>
 
-<body class="h-100">
+<body>
 
     <div class="container-fluid">
 
-        <div class="row" id="accordion">
+        <div class="row" id="accTendance">
 
-            <div class="col-12">
-                <button class="btn btn-link text-white text-decoration-none" data-toggle="collapse" data-target="#collapseTendance" 
-                    aria-expanded="false" aria-controls="collapseTendance">
-                    <h5 class=" titleCategory">
-                        Tendance
-                    </h5>
+            <h5 class="mb-0 text-center" id="tendance">
+                <button class="btn btn-link collapsed text-white text-decoration-none titleCategory" data-toggle="collapse" data-target="#collapseTendance" aria-expanded="false" aria-controls="collapseTendance">
+                  Tendances
                 </button>
-            </div>
-            
-            <div id="collapseTendance" class="col-12 flex-row collapse show" aria-labelledby="tendance" data-parent="#accordion">
-                <div>
-                    <img src="assets/img\pop rock\poprockinvincible.jpg" class="img-fluid rounded" alt="Mickael Jackson">
-                    <h5 class="figure-caption text-white">Mickael Jackson: Invincible</h5>
-                </div>
-                <figure class="figure">
-                    <img src="assets/img\80\80's madonna_true_blue.jpg" class="img-fluid rounded" alt="Madonna">
-                    <figcaption class="figure-caption text-white">Madonna: True blue</figcaption>
-                </figure>
-                <figure class="figure">
-                    <img src="assets/img\pop rock\poprockelton.jpg" class="img-fluid rounded" alt="Elton John">
-                    <figcaption class="figure-caption text-white">Elton John: Sleeping with the past</figcaption>
-                </figure>
-                <figure class="figure">
-                    <img src="assets/img\rap\biggie_hypnotize.jpg" class="img-fluid rounded" alt="The Notorious BIG">
-                    <figcaption class="figure-caption text-white">The Notorious BIG: Hypnotize</figcaption>
-                </figure>
-            </div>
+            </h5>
+        </div>
 
+        <div id="collapseTendance" class="row collapse show" aria-labelledby="tendance" data-parent="#accTendance">
+            <div class="col-3 text-center">
+                <img src="assets/img\pop rock\poprockinvincible.jpg" class="img-fluid rounded" alt="Mickael Jackson">
+                <figcaption class="figure-caption text-white">Mickael Jackson: Invincible</figcaption>
+            </div>
+            <div class="col-3 text-center">
+                <img src="assets/img\80\80's madonna_true_blue.jpg" class="img-fluid rounded" alt="Madonna">
+                <figcaption class="figure-caption text-white">Madonna: True blue</figcaption>
+            </div>
+            <div class="col-3 text-center">
+                <img src="assets/img\pop rock\poprockelton.jpg" class="img-fluid rounded" alt="Elton John">
+                <figcaption class="figure-caption text-white">Elton John: Sleeping with the past</figcaption>
+            </div>
+            <div class="col-3 text-center">
+                <img src="assets/img\rap\biggie_hypnotize.jpg" class="img-fluid rounded" alt="The Notorious BIG">
+                <figcaption class="figure-caption text-white">The Notorious BIG: Hypnotize</figcaption>
+            </div>
         </div>
     
                 <div class="card mb-3 thBgOp">
