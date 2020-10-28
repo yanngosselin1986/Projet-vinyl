@@ -6,13 +6,52 @@ html {
 }
 
 body {
-    background-image: url("../img/bgindex2.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: 'Piedra', cursive;
     color: white;
     font-size: 15px;
     margin: 0 8px !important;
+}
+
+#footer-color-index {
+    background-color: #853832b6;
+}
+
+#footer-color-electro {
+    background-color: #4c91a6b6;
+}
+
+#footer-color-rap {
+    background-color: #b6c7e0b6;
+}
+
+#footer-color-pop {
+    background-color: #2a464cb6;
+}
+
+#footer-color-80s {
+    background-color: #d98414b6;
+}
+
+#bg-img-index {
+    background-image: url("../img/bgindex2.jpg");
+}
+
+#bg-img-electro {
+    background-image: url("../img/bg_electro.jpg");
+}
+
+#bg-img-rap {
+    background-image: url("../img/bg_rap.jpg");
+}
+
+#bg-img-pop {
+    background-image: url("../img/bg_pop-rock.jpg");
+}
+
+#bg-img-80s {
+    background-image: url("../img/bg_80s.jpg");
 }
 
 
@@ -39,7 +78,6 @@ a {
 
 .footer {
     height: auto;
-    background-color: #853832b6;
 }
 
 .footer a {
