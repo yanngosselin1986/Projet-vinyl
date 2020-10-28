@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
+body {
+    background-image: url("../img/bgindex2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Piedra', cursive;
+    color: white;
+    font-size: 15px;
+    margin: 0 8px !important;
+}
+
+
+/*
+footer
+*/
+
+img {
+    vertical-align: middle;
+    margin-left: 1em;
+}
+
+a {
+    color: black;
+}
+
+.page1 {
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.footer {
+    height: auto;
+    background-color: #853832b6;
+}
+
+.footer a {
+    color: black;
+    text-decoration: underline;
+}
+
+footer .btn-link {
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+footer .btn-link:hover {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.card {
+    background: transparent;
+    border: none;
+}
+
+footer .card-header {
+    background: transparent;
+    border: none;
+    padding: 0;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+
+/* Media queries pour obliger le navigateur à afficher le contenu en vue desktop et tablette */
+
+@media (min-width: 992px) {
+    .collapse.dont-collapse-md {
+        display: block;
+        height: auto !important;
+        visibility: visible;
+    }
+}
+
+
+/*
+fin du footer
+*/
