@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-image: url("../img/bg_pop-rock.jpg");
     background-repeat: no-repeat;
