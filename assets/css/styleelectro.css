@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
 body {
-    background-image: url("../img/bgindex2.jpg");
+    background-image: url("../img/bg_electro.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: 'Piedra', cursive;
@@ -33,7 +33,7 @@ a {
 
 .footer {
     height: auto;
-    background-color: #853832b6;
+    background-color: #4c91a6b6;
 }
 
 .footer a {
