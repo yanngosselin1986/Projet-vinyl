@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
+<<<<<<< HEAD
 /*
 head
 */
@@ -100,12 +101,22 @@ fin head
 body
 */
 body{
+=======
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+>>>>>>> footer
     background-image: url("../img/bg_rap.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: 'Piedra', cursive;
     color: white;
     font-size: 15px;
+<<<<<<< HEAD
 }
 .titleCategory{
     font-size: 50px;
@@ -126,20 +137,37 @@ body{
 /*
 Fin du body
 */
+=======
+    margin: 0 8px !important;
+}
+
+>>>>>>> footer
 
 /*
 footer
 */
+<<<<<<< HEAD
 p {
     margin-left: 1em;
 }
+=======
+
+>>>>>>> footer
 img {
     vertical-align: middle;
     margin-left: 1em;
 }
+<<<<<<< HEAD
 a {
     color: black;
 }
+=======
+
+a {
+    color: black;
+}
+
+>>>>>>> footer
 .page1 {
     width: 100%;
     height: 600px;
@@ -147,6 +175,7 @@ a {
     color: white;
     text-align: center;
 }
+<<<<<<< HEAD
 .footer {
     float: left;
     width: 100%;
@@ -174,6 +203,56 @@ a {
     height: 250px;
     float: left;
 }
+=======
+
+.footer {
+    height: auto;
+    background-color: #b6c7e0b6;
+}
+
+.footer a {
+    color: black;
+    text-decoration: underline;
+}
+
+footer .btn-link {
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+footer .btn-link:hover {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.card {
+    background: transparent;
+    border: none;
+}
+
+footer .card-header {
+    background: transparent;
+    border: none;
+    padding: 0;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+
+/* Media queries pour obliger le navigateur à afficher le contenu en vue desktop et tablette */
+
+@media (min-width: 992px) {
+    .collapse.dont-collapse-md {
+        display: block;
+        height: auto !important;
+        visibility: visible;
+    }
+}
+
+
+>>>>>>> footer
 /*
 fin du footer
 */

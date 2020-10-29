@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
+<<<<<<< HEAD
 /*
 head
 */
@@ -98,12 +99,22 @@ head
 /* fin head /*
 /* body */
 body{
+=======
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+>>>>>>> footer
     background-image: url("../img/bg_pop-rock.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: 'Piedra', cursive;
     color: white;
     font-size: 15px;
+<<<<<<< HEAD
 }
 .titleCategory{
     font-size: 50px;
@@ -126,13 +137,31 @@ body{
 p {
     margin-left: 1em;
 }
+=======
+    margin: 0 8px !important;
+}
+
+
+/*
+footer
+*/
+
+>>>>>>> footer
 img {
     vertical-align: middle;
     margin-left: 1em;
 }
+<<<<<<< HEAD
 a {
     color: black;
 }
+=======
+
+a {
+    color: black;
+}
+
+>>>>>>> footer
 .page1 {
     width: 100%;
     height: 600px;
@@ -140,6 +169,7 @@ a {
     color: white;
     text-align: center;
 }
+<<<<<<< HEAD
 .footer {
     float: left;
     width: 100%;
@@ -168,3 +198,56 @@ a {
     float: left;
 }
 /* fin du footer */
+=======
+
+.footer {
+    height: auto;
+    background-color: #2a464cb6;
+}
+
+.footer a {
+    color: black;
+    text-decoration: underline;
+}
+
+footer .btn-link {
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+footer .btn-link:hover {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.card {
+    background: transparent;
+    border: none;
+}
+
+footer .card-header {
+    background: transparent;
+    border: none;
+    padding: 0;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+
+/* Media queries pour obliger le navigateur à afficher le contenu en vue desktop et tablette */
+
+@media (min-width: 992px) {
+    .collapse.dont-collapse-md {
+        display: block;
+        height: auto !important;
+        visibility: visible;
+    }
+}
+
+
+/*
+fin du footer
+*/
+>>>>>>> footer
