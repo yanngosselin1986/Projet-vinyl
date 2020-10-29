@@ -14,28 +14,31 @@
 
 <body id="bg-img-pop">
 
-    <nav id="color-pop">
-        <div class="buttonContainer container-fluid ">
-            <a class="homeButton" href="index.html">
-                <img class="logo img-fluid" src="assets/img/logo_100p.png" width="90" alt="logo">
-            </a>
-            <div class="d-none d-sm-none d-md-block d-lg-block">
-                <input type="text" id="searchBarIndex" name="search" placeholder="Rechercher">
-                <div class="d-flex justify-content-end  ">
-                    <button type="button" class="colorbutton m-0 text-light btn btn-lg pt-3 pb-3 border border-dark">Mon
-                        panier</button>
-                    <button type="button" class="colorbutton m-0 text-light btn btn-lg pt-3 pb-3 border border-dark">Mon
-                        compte</button>
+    <div>
+
+        <nav id="color-pop">
+            <div class="buttonContainer container-fluid ">
+                <a class="homeButton" href="index.html">
+                    <img src="assets/img/logo_100p.png" class="logo img-fluid" alt="logo" width="90">
+                </a>
+                <div class="d-none d-sm-none d-md-block d-lg-block">
+                    <input type="text" id="searchBarIndex" name="search" placeholder="Rechercher">
+                    <div class="d-flex justify-content-end  ">
+                        <button type="button" class="colorbutton m-0 text-light btn btn-lg pt-3 pb-3 border border-dark">Mon
+                            panier</button>
+                        <button type="button" class="colorbutton m-0 text-light btn btn-lg pt-3 pb-3 border border-dark">Mon
+                            compte</button>
+                    </div>
                 </div>
-            </div>
-            <div class="d-block d-sm-block d-md-none d-lg-none">
-                <div class="d-flex flex-row justify-content-end ">
-                    <a data-toggle="collapse" href="#loupe" role="button" aria-expanded="false" aria-controls="loupe">
-                        <img src="assets/img/Fichier_8.png" alt="" width="30" class="img-fluid m-4">
-                    </a>
-                    <div class="collapse" id="loupe">
-                        <div class="card card-body">
-                            <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                <div class="d-block d-sm-block d-md-none d-lg-none">
+                    <div class="d-flex flex-row justify-content-end ">
+                        <a data-toggle="collapse" href="#loupe" role="button" aria-expanded="false" aria-controls="loupe">
+                            <img src="assets/img/Fichier_8.png" alt="" width="30" class="img-fluid m-4">
+                        </a>
+                        <div class="collapse" id="loupe">
+                            <div class="card card-body">
+                                <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                            </div>
                         </div>
                     </div>
 
@@ -58,24 +61,20 @@
                     <button class="catBtn" onclick="window.location.href='assets/img/404.jpg';"> Clips </button>
                 </div>
             </div>
-        </div>
-        <div class=" d-block d-sm-block d-md-block d-lg-none">
-            <div class="category">
-                <div class="catBtnBox d-flex justify-content-center ">
-                    <a href="Pop-Rock.html"> <img src="assets/img/pop.png" width="30" class="img-fluid ml-4 m-2" alt="">
-                    </a>
-                    <a href="rap.html"> <img src="assets/img/rap.png" width="40" class="img-fluid ml-4 m-2 mt-3"
-                            alt="">
-                    </a>
-                    <a href="80s.html"> <img src="assets/img/la_boule_1.png" width="30" class="img-fluid ml-4 m-2"
-                            alt="">
-                    </a>
-                    <a href="electro.html"> <img src="assets/img/electro.png" width="25" class="img-fluid ml-4 m-2"
-                            alt="">
-                    </a>
-                    <a href="assets/img/404.jpg"> <img src="assets/img/clip.png" width="40" class="img-fluid ml-4 m-2"
-                            alt="">
-                    </a>
+            <div class=" d-block d-sm-block d-md-block d-lg-none">
+                <div class="category">
+                    <div class="catBtnBox d-flex justify-content-center ">
+                        <a href="Pop-Rock.html"> <img src="assets/img/pop.png" width="30" class="img-fluid ml-4 m-2" alt="">
+                        </a>
+                        <a href="rap.html"> <img src="assets/img/rap.png" width="40" class="img-fluid ml-4 m-2 mt-3" alt="">
+                        </a>
+                        <a href="80s.html"> <img src="assets/img/la_boule_1.png" width="30" class="img-fluid ml-4 m-2" alt="">
+                        </a>
+                        <a href="electro.html"> <img src="assets/img/electro.png" width="25" class="img-fluid ml-4 m-2" alt="">
+                        </a>
+                        <a href="assets/img/404.jpg"> <img src="assets/img/clip.png" width="40" class="img-fluid ml-4 m-2" alt="">
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -91,9 +90,11 @@
             </h5>
         </div>
 
-        <div class="row justify-content-center"><h5 class="d-none d-lg-flex mt-5 mb-5 titleCategory">Tendances</h5></div>
+        <div class="row justify-content-center">
+            <h5 class="d-none d-lg-flex mt-5 mb-5 titleCategory">Tendances</h5>
+        </div>
 
-        <div id="collapseTendance" class="row collapse show text-center show mb-5" aria-labelledby="tendance" data-parent="#accordion">
+        <div id="collapseTendance" class="row collapse text-center show mb-5" aria-labelledby="tendance" data-parent="#accordion">
             <figure class="jacket col-6 col-lg-3">
                 <img src="assets/img/pop_rock/poprockdangerous.jpg" title="Michael Jackson" class="figure-img img-fluid rounded" />
                 <figcaption>Mickael Jackson: Dangerous</figcaption>
@@ -123,7 +124,9 @@
             </h5>
         </div>
 
-        <div class="row justify-content-center"><h5 class="d-none d-lg-flex mt-5 mb-5 titleCategory">Nouveautés</h5></div>
+        <div class="row justify-content-center">
+            <h5 class="d-none d-lg-flex mt-5 mb-5 titleCategory">Nouveautés</h5>
+        </div>
 
         <div id="collapseNews" class="row collapse show text-center mb-5" aria-labelledby="news" data-parent="#accordion">
 
@@ -156,9 +159,11 @@
             </h5>
         </div>
 
-        <div class="row justify-content-center"><h5 class="d-none d-lg-flex mt-5 mb-5 titleCategory">Les plus vendus</h5></div>
+        <div class="row justify-content-center">
+            <h5 class="d-none d-lg-flex mt-5 mb-5 titleCategory">Les plus vendus</h5>
+        </div>
 
-        <div id="collapseMostSold" class="row collapse show text-center mb-5" aria-labelledby="mostSold" data-parent="#accordion">
+        <div id="collapseMostSold" class="row collapse text-center mb-5 figure-img img-fluid rounded" aria-labelledby="mostSold" data-parent="#accordion">
 
             <figure class="jacket col-6 col-lg-3">
                 <img src="assets/img/pop_rock/poprockstevie-ray-vaughan-happy-new-year-blues.jpg" alt="Stevie Ray Vaughan" title="Stevie Ray Vaughan" class="figure-img img-fluid rounded" />
@@ -189,12 +194,14 @@
             </h5>
         </div>
 
-        <div class="row justify-content-center"><h5 class="d-none d-lg-flex mt-5 mb-5 titleCategory">A venir</h5></div>
+        <div class="row justify-content-center">
+            <h5 class="d-none d-lg-flex mt-5 mb-5 titleCategory">A venir</h5>
+        </div>
 
         <div id="collapseSoon" class="row collapse show text-center mb-5" aria-labelledby="soon" data-parent="#accordion">
 
             <figure class="jacket col-6 col-lg-3">
-                <img src="assets/img/poprockinvincible.jpg" alt="Mickael Jackson" title="Michael Jackson" class="figure-img img-fluid rounded" />
+                <img src="assets/img/pop_rock/poprockinvincible.jpg" alt="Mickael Jackson" title="Michael Jackson" class="figure-img img-fluid rounded" />
                 <figcaption>Mickael Jackson: Invincible</figcaption>
             </figure>
             <figure class="jacket col-6 col-lg-3">
@@ -202,7 +209,7 @@
                 <figcaption>Les Beatles: Revolver</figcaption>
             </figure>
             <figure class="jacket col-6 col-lg-3">
-                <img src="assets/img/poprockelton.jpg" alt="Elton" title="Elton John" class="figure-img img-fluid rounded" />
+                <img src="assets/img/pop_rock/poprockelton.jpg" alt="Elton" title="Elton John" class="figure-img img-fluid rounded" />
                 <figcaption>Elton John: Sleeping with the past</figcaption>
             </figure>
             <figure class="jacket col-6 col-lg-3">
