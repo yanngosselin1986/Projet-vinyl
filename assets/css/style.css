@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
+
+/*
+head
+*/
+
+
+/*
+fin head
+/*
+/* 
+body
+*/
+
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Piedra', cursive;
+    color: white;
+    font-size: 15px;
+    height: 100%;
+    /* width: 100%; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0 8px !important;
+}
+
+#footer-color-index {
+    background-color: #853832b6;
+}
+
+#footer-color-electro {
+    background-color: #4c91a6b6;
+}
+
+#footer-color-rap {
+    background-color: #b6c7e0b6;
+}
+
+#footer-color-pop {
+    background-color: #2a464cb6;
+}
+
+#footer-color-80s {
+    background-color: #d98414b6;
+}
+
+#bg-img-index {
+    background-image: url("../img/bgindex2.jpg");
+}
+
+#bg-img-electro {
+    background-image: url("../img/bg_electro.jpg");
+}
+
+#bg-img-rap {
+    background-image: url("../img/bg_rap.jpg");
+}
+
+#bg-img-pop {
+    background-image: url("../img/bg_pop-rock.jpg");
+}
+
+#bg-img-80s {
+    background-image: url("../img/bg_80s.jpg");
+}
+
+
+/* My css part */
+
+hr {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #EEEEEE99 -moz-use-text-color #FFFFFF99;
+    border-style: solid none;
+    border-width: 1px 0;
+    margin: 18px 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+#accordion img:hover {
+    margin-bottom: 5%;
+    transform: scale(1.1);
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+.thBgOp {
+    background-color: transparent !important;
+}
+
+.thBgOp2 {
+    background-color: transparent !important;
+}
+
+.thBgCat {
+    background-color: #371614;
+    border: transparent;
+}
+
+.btn {
+    text-decoration: none;
+}
+
+
+/*  Leur CSS */
+
+.titleCategory {
+    font-size: 50px;
+}
+
+
+/*
+Fin du body
+*/
+
+
+/*
+footer
+*/
+
+footer img {
+    vertical-align: middle;
+    margin-left: 1em;
+}
+
+a {
+    color: black;
+}
+
+.page1 {
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.footer {
+    height: auto;
+}
+
+.footer a {
+    color: black;
+    text-decoration: underline;
+}
+
+footer .btn-link {
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+footer .btn-link:hover {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.card {
+    background: transparent;
+    border: none;
+}
+
+footer .card-header {
+    background: transparent;
+    border: none;
+    padding: 0;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+
+/* Media queries pour obliger le navigateur à afficher le contenu en vue desktop et tablette */
+
+@media (min-width: 992px) {
+    .collapse.dont-collapse-md {
+        display: block;
+        height: auto !important;
+        visibility: visible;
+    }
+}
+
+
+/*
+fin du footer
+*/
