@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="fr" dir="ltr">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/img/favicon.ico" />
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
@@ -11,11 +12,11 @@
     <title>French platine</title>
 </head>
 
-<body id="bg-img-index">
+<body id="bg-img-electro">
 
     <div>
 
-        <nav id="color-index">
+        <nav id="color-pop">
             <div class="buttonContainer container-fluid ">
                 <a class="homeButton" href="index.html">
                     <img class="logo" src="assets/img/logo_100p.png" class="img-fluid" width="90">
@@ -83,10 +84,11 @@
         </nav>
 
     </div>
+    
 
     <div class="container-fluid"  id="accordion">
 
-        <div class="row" id="tendance">
+        <div class="row d-lg-none" id="tendance">
             <h5 class="col-12 mt-5 text-center">
                 <button class="btn btn-link collapsed text-white text-decoration-none titleCategory" data-toggle="collapse" data-target="#collapseTendance" aria-expanded="false" aria-controls="collapseTendance">
                     Tendances
@@ -94,31 +96,31 @@
             </h5>
         </div>
 
-        <!-- <div class="row justify-content-center"><h5 class="d-none d-lg-flex mt-5 mb-5 titleCategory">Tendances</h5></div> -->
+        <div class="row justify-content-center"><h5 class="d-none d-lg-flex mt-5 mb-5 titleCategory">Tendances</h5></div>
     
-        <div id="collapseTendance" class="row collapse text-center show mb-5" aria-labelledby="tendance" data-parent="#accordion">
+        <div id="collapseTendance" class="row collapse show dont-collapse-lg d-lg-flex mb-5 text-center" aria-labelledby="tendance" data-parent="#accordion">
             <div class="jacket col-6 col-lg-3">
-                <img src="assets/img\pop rock\poprockinvincible.jpg" class="img-fluid rounded" alt="Mickael Jackson">
-                <figcaption class="text-white">Mickael Jackson: Invincible</figcaption>
+                <img src="assets\img\electro\Asgeir_afterglow.jpg" class="img-fluid rounded" alt="Mickael Jackson">
+                <figcaption class="text-white">Asgeir: afterglow</figcaption>
             </div>
             <div class="jacket col-6 h-100 col-lg-3">
-                <img src="assets/img\80\80's madonna_true_blue.jpg" class="img-fluid rounded" alt="Madonna">
-                <figcaption class="figure-caption text-white">Madonna: True blue</figcaption>
+                <img src="assets\img\electro\Big_Ali__Urban_Electro.jpg" class="img-fluid rounded" alt="Madonna">
+                <figcaption class="figure-caption text-white">Big Ali: Urban Electro</figcaption>
             </div>
             <div class="jacket col-6 h-100 col-lg-3">
                 <img src="assets/img\pop rock\poprockelton.jpg" class="img-fluid rounded" alt="Elton John">
-                <figcaption class="figure-caption text-white">Elton John: Sleeping with the past</figcaption>
+                <figcaption class="figure-caption text-white">Daft Punk: Electro Urban</figcaption>
             </div>
             <div class="jacket col-6 h-100 col-lg-3">
-                <img src="assets/img\rap\biggie_hypnotize.jpg" class="img-fluid rounded" alt="The Notorious BIG">
-                <figcaption class="figure-caption text-white">The Notorious BIG: Hypnotize</figcaption>
+                <img src="assets/img\electro\DJ_KENNY_ELECTRO_CHILL.jpg" class="img-fluid rounded" alt="The Notorious BIG">
+                <figcaption class="figure-caption text-white">Dj Kenny: Electro Chill</figcaption>
             </div>
         
-        </div>
+        </div> 
 
         <hr>
 
-        <div class="row" id="news">
+        <div class="row d-lg-none" id="news">
             <h5 class="col-12 mt-5 text-center">
                 <button class="btn btn-link collapsed text-white text-decoration-none titleCategory" data-toggle="collapse" data-target="#collapseNews" aria-expanded="false" aria-controls="collapseNews">
                 Nouveautés
@@ -126,32 +128,32 @@
             </h5>
         </div>
 
-        <!-- <div class="row justify-content-center"><h5 class="d-none d-lg-flex mt-5 mb-5 titleCategory">Nouveautés</h5></div> -->
+        <div class="row justify-content-lg-center"><h5 class="d-none d-lg-flex mt-5 mb-5 titleCategory">Nouveautés</h5></div>
 
-        <div id="collapseNews" class="row collapse text-center mb-5" aria-labelledby="news" data-parent="#accordion">
+        <div id="collapseNews" class="row collapse show dont-collapse-lg d-lg-flex  text-center mb-5" aria-labelledby="news" data-parent="#accordion">
             
             <div class="jacket col-6 col-lg-3">
-                <img src="assets/img\rap\rap SPRI NOIR.jpg" class="img-fluid rounded" alt="SPRI NOIR">
-                <figcaption class="figure-caption text-white">SPRI NOIR: Masque Blanc</figcaption>
+                <img src="assets/img\electro\ELECTRO_ALIEN_BEAT_REALIZE.jpg" class="img-fluid rounded" alt="SPRI NOIR">
+                <figcaption class="figure-caption text-white">Electro Alien: Beat Realize</figcaption>
             </div>
             <div class="jacket col-6 col-lg-3">
-                <img src="assets/img\pop rock\pop rockERIC-CLAPTON-Clapton.jpeg" class="img-fluid rounded" alt="Eric Clapton">
-                <figcaption class="figure-caption text-white">Eric Clapton: CLAPTON</figcaption>
+                <img src="assets/img\electro\ELECTRO_BAMAKO_Jukuni.jpg" class="img-fluid rounded" alt="Eric Clapton">
+                <figcaption class="figure-caption text-white">ELECTRO BAMAKO: Jukuni</figcaption>
             </div>
             <div class="jacket col-6 col-lg-3">
-                <img src="assets/img\pop rock\pop rockweekend.jpg" class="img-fluid rounded" alt="The WeekEnd">
-                <figcaption class="figure-caption text-white">The Week End</figcaption>
+                <img src="assets/img\electro\Electro_Deluxe_apollo.png" class="img-fluid rounded" alt="The WeekEnd">
+                <figcaption class="figure-caption text-white">Electro Deluxe: apollo</figcaption>
             </div>
             <div class="jacket col-6 col-lg-3">
-                <img src="assets/img\rap\rap BOSH Dos_argente.jpg" class="figure-img img-fluid rounded" alt="Bosh">
-                <figcaption class="figure-caption text-white">Bosh: Dos Argenté</figcaption>
+                <img src="assets/img\electro\F.I.F_CURTIS_PHENOMENE.jpg" class="figure-img img-fluid rounded" alt="Bosh">
+                <figcaption class="figure-caption text-white">F.I.F CURTIS: PHENOMENE</figcaption>
             </div>
         
         </div>
 
         <hr>
 
-        <div class="row" id="mostSold">
+        <div class="row d-lg-none" id="mostSold">
             <h5 class="col-12 mt-5 text-center">
                 <button class="btn btn-link collapsed text-white text-decoration-none titleCategory" data-toggle="collapse" data-target="#collapseMostSold" aria-expanded="false" aria-controls="collapseMostSold">
                     Les plus vendus
@@ -159,32 +161,32 @@
             </h5>
         </div>
 
-        <!-- <div class="row justify-content-center"><h5 class="d-none d-lg-flex mt-5 mb-5 titleCategory">Les plus vendus</h5></div> -->
+        <div class="row justify-content-lg-center"><h5 class="d-none d-lg-flex mt-5 mb-5 titleCategory">Les plus vendus</h5></div>
 
-        <div id="collapseMostSold" class="row collapse text-center mb-5" aria-labelledby="mostSold" data-parent="#accordion">
+        <div id="collapseMostSold" class="row collapse show dont-collapse-lg d-lg-flex text-center mb-5" aria-labelledby="mostSold" data-parent="#accordion">
                 
             <div class="jacket col-6 col-lg-3">
-                <img src="assets/img\80\80 -DAVID BOWIE LEGACY.jpg" class="figure-img img-fluid rounded" alt="David Bowie">
-                <figcaption class="figure-caption text-white">David Bowie: Legacy</figcaption>
+                <img src="assets/img\electro\HEADER_SINGER_NAME.jpg" class="figure-img img-fluid rounded" alt="David Bowie">
+                <figcaption class="figure-caption text-white">HEADER: SINGER NAME</figcaption>
             </div>
             <div class="jacket col-6 col-lg-3">
-                <img src="assets/img\80\80Elton john DIAMONDS.jpg" class="figure-img img-fluid rounded" alt="Elton John">
-                <figcaption class="figure-caption text-white">Elton John: Diamonds</figcaption>
+                <img src="assets/img\electro\HURTS_SURRENDER.jpg" class="figure-img img-fluid rounded" alt="Elton John">
+                <figcaption class="figure-caption text-white">HURTS: SURRENDER</figcaption>
             </div>
             <div class="jacket col-6 col-lg-3">
-                <img src="assets/img\80\80 TINA TURNER SIMPLY THE BEST.jpg" class="figure-img img-fluid rounded" alt="Tina Turner">
-                <figcaption class="figure-caption text-white">Tina Turner: Simply The Best</figcaption>
+                <img src="assets/img\electro\JUNGLE_For_Ever.jpg" class="figure-img img-fluid rounded" alt="Tina Turner">
+                <figcaption class="figure-caption text-white">JUNGLE: For Ever</figcaption>
             </div>
             <div class="jacket col-6 col-lg-3">
-                <img src="assets/img\80\80's bad.jpg" class="figure-img img-fluid rounded" alt="Mickael Jackson">
-                <figcaption class="figure-caption text-white">Mickael Jachson: BAD</figcaption>
+                <img src="assets/img\electro\KAVINSKY_Outrun.jpg" class="figure-img img-fluid rounded" alt="Mickael Jackson">
+                <figcaption class="figure-caption text-white">KAVINSKY: Outrun</figcaption>
             </div>
                 
         </div>
 
         <hr>
 
-        <div class="row" id="soon">
+        <div class="row d-lg-none" id="soon">
             <h5 class="col-12 mt-5 text-center">
                 <button class="btn btn-link collapsed text-white text-decoration-none titleCategory" data-toggle="collapse" data-target="#collapseSoon" aria-expanded="false" aria-controls="collapseSoon">
                     A venir
@@ -192,25 +194,25 @@
             </h5>
         </div>
 
-        <!-- <div class="row justify-content-center"><h5 class="d-none d-lg-flex mt-5 mb-5 titleCategory">A venir</h5></div> -->
+        <div class="row justify-content-center"><h5 class="d-none d-lg-flex mt-5 mb-5 titleCategory">A venir</h5></div>
 
-        <div id="collapseSoon" class="row collapse text-center mb-5" aria-labelledby="soon" data-parent="#accordion">
+        <div id="collapseSoon" class="row collapse show dont-collapse-lg d-lg-flex text-center mb-5" aria-labelledby="soon" data-parent="#accordion">
             
             <div class="jacket col-6 col-lg-3">
-                <img src="assets/img\pop rock\poprockinvincible.jpg" class="figure-img img-fluid rounded" alt="Michael Jackson">
-                <figcaption class="figure-caption text-white">Michael Jackson: Invincible</figcaption>
+                <img src="assets/img\electro\MUSE_SIMULATION_THEORY.jpg" class="figure-img img-fluid rounded" alt="Michael Jackson">
+                <figcaption class="figure-caption text-white">MUSE: SIMULATION THEORY</figcaption>
             </div>
             <div class="jacket col-6 col-lg-3">
-                <img src="assets/img\80\80's madonna_true_blue.jpg" class="figure-img img-fluid rounded" alt="Madonna">
-                <figcaption class="figure-caption text-white">Madonna: True blue</figcaption>
+                <img src="assets/img\electro\RON_MOOR_STARSHINE.jpg" class="figure-img img-fluid rounded" alt="Madonna">
+                <figcaption class="figure-caption text-white">RON MOOR: STARSHINE</figcaption>
             </div>
             <div class="jacket col-6 col-lg-3">
-                <img src="assets/img\pop rock\poprockelton.jpg" class="figure-img img-fluid rounded" alt="Elton John">
-                <figcaption class="figure-caption text-white">Elton John: Sleeping with the past</figcaption>
+                <img src="assets/img\electro\SUB_FOCUS_TORUS.jpg" class="figure-img img-fluid rounded" alt="Elton John">
+                <figcaption class="figure-caption text-white">SUB: FOCUS TORUS</figcaption>
             </div>
             <div class="jacket col-6 col-lg-3">
-                <img src="assets/img\rap\biggie_hypnotize.jpg" class="figure-img img-fluid rounded" alt="Notorious BIG">
-                <figcaption class="figure-caption text-white">The Notorious BIG: Hypnotize</figcaption>
+                <img src="assets/img\electro\WYVE_Birth.jpg" class="figure-img img-fluid rounded" alt="Notorious BIG">
+                <figcaption class="figure-caption text-white">WYVE: Birth</figcaption>
             </div>
             
         </div>
@@ -219,9 +221,10 @@
 
     </div>
 
+    
     <!-- Footer -->
 
-    <footer class="container-fluid" id="footer-color-index">
+    <footer class="container-fluid" id="footer-color-electro">
 
         <!-- Collapse accordeon -->
 
@@ -326,6 +329,5 @@
     </script>
 
 </body>
-
 
 </html>
