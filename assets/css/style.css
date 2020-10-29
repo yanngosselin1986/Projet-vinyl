@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
 
 html, body{
-    background-image: url("../img/bgindex2.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -14,12 +13,30 @@ html, body{
     padding: 0;
     box-sizing: border-box;
 }
+#bg-img-index {
+    background-image: url("../img/bgindex2.jpg");
+}
 
+#bg-img-electro {
+    background-image: url("../img/bg_electro.jpg");
+}
+
+#bg-img-rap {
+    background-image: url("../img/bg_rap.jpg");
+}
+
+#bg-img-pop {
+    background-image: url("../img/bg_pop-rock.jpg");
+}
+
+#bg-img-80s {
+    background-image: url("../img/bg_80s.jpg");
+}
 
 
 nav {
     height: 100px;
-    /* width: 100%; */
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 #color-pop{
@@ -57,10 +74,7 @@ nav {
     border: solid;
     border-color: #3B3561;
 }
-.buttonContainer {
-    float: right;
-    width: 20%;
-}
+
 #account {
     width: 50%;
     height: 100px;
@@ -70,10 +84,10 @@ nav {
     transition: transform.2s;
     border-color: black;
 }
-#account:hover, #shoppingCart:hover, .categoryButton:hover {
+#account:hover, #shoppingCart:hover, .catBtn:hover {
     transform: scale(1.1);
 }
-.categoryButton:hover, #shoppingCart:hover, #account:hover{
+.catBtn:hover, #shoppingCart:hover, #account:hover{
     border-radius: 5px;
 }
 #shoppingCart {
@@ -97,10 +111,10 @@ nav {
     height: 50px;
     background-color: #292f36;
 }
-.categoryButtonContainer {
+.catBtnBox {
     text-align: center;
 }
-.categoryButton {
+.catBtn {
     width: 10%;
     height: 45px;
     transition: transform.2s;
@@ -111,7 +125,7 @@ nav {
     color: white;
 }
 .colorbutton{
-    background-color: #44c524;
+    background-color: #162427;
 }
 
 /* My css part */
@@ -119,6 +133,7 @@ nav {
 hr {
     -moz-border-bottom-colors: none;
     -moz-border-image: none;
+    border-image: none;
     -moz-border-left-colors: none;
     -moz-border-right-colors: none;
     -moz-border-top-colors: none;
@@ -128,9 +143,6 @@ hr {
     margin: 18px 0;
   }
 
-html {
-    box-sizing: border-box;
-}
 #accordion img:hover {
     margin-bottom: 5%;
     transform: scale(1.1);
@@ -197,25 +209,7 @@ html {
     background-color: #d98414b6;
 }
 
-#bg-img-index {
-    background-image: url("../img/bgindex2.jpg");
-}
 
-#bg-img-electro {
-    background-image: url("../img/bg_electro.jpg");
-}
-
-#bg-img-rap {
-    background-image: url("../img/bg_rap.jpg");
-}
-
-#bg-img-pop {
-    background-image: url("../img/bg_pop-rock.jpg");
-}
-
-#bg-img-80s {
-    background-image: url("../img/bg_80s.jpg");
-}
 
 
 

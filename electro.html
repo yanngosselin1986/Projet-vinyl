@@ -1,106 +1,227 @@
 <!DOCTYPE html>
-<<<<<<< HEAD
-<html lang="fr" dir="ltr">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/img/favicon.ico" />
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/bootstrap.css">
-    <title>French platine</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-
-</head>
-
-<body>
-    <nav id="color-electro">
-        <div class="buttonContainer container-fluid ">
-            <a class="homeButton" href="index.html">
-                <img class="logo" src="assets/img/logo_100p.png" class="img-fluid" width="90">
-            </a>
-            <div class="d-none d-sm-none d-md-block d-lg-block">
-                <input type="text" id="searchBarIndex" name="search" placeholder="Rechercher">
-                <div class="d-flex justify-content-end  ">
-                    <button type="button" class="colorbutton m-0 text-light btn btn-lg pt-3 pb-3 border border-dark">Mon
-                        panier</button>
-                    <button type="button" class="colorbutton m-0 text-light btn btn-lg pt-3 pb-3 border border-dark">Mon
-                        compte</button>
-                </div>
-            </div>
-            <div class="d-block d-sm-block d-md-none d-lg-none">
-                <div class="d-flex flex-row justify-content-end ">
-                    <a data-toggle="collapse" href="#loupe" role="button" aria-expanded="false"
-                        aria-controls="collapseExample">
-                        <img src="assets/img/Fichier 8.png" alt="" width="30" class="img-fluid m-4">
-                    </a>
-                    <div class="collapse" id="loupe">
-                        <div class="card card-body">
-                            <input class="form-control" type="text" placeholder="Search" aria-label="Search">
-                        </div>
-                    </div>
-
-                    <div>
-                        <a href=""><img src="assets/img/Fichier 7.png" alt="" width="50" class="img-fluid m-4"></a>
-                    </div>
-                    <div><a href=""><img src="assets/img/Fichier 5.png" alt="" width="30" class="img-fluid m-4"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="d-none d-sm-none d-md-none d-lg-block">
-            <div class="category">
-                <div class="categoryButtonContainer ">
-                    <button class="categoryButton" onclick="window.location.href='Pop-Rock.html';"> Pop rock </button>
-                    <button class="categoryButton" onclick="window.location.href='rap.html'"> Rap </button>
-                    <button class="categoryButton" onclick="window.location.href='80s.html';"> 80's </button>
-                    <button class="categoryButton" onclick="window.location.href='electro.html';"> Electro </button>
-                    <button class="categoryButton" onclick="window.location.href='assets/img/404.jpg';"> Clips </button>
-                </div>
-            </div>
-        </div>
-        <div class=" d-block d-sm-block d-md-block d-lg-none">
-            <div class="category">
-                <div class="categoryButtonContainer d-flex justify-content-center ">
-                    <a href="Pop-Rock.html"> <img src="assets/img/pop.png" width="30" class="img-fluid ml-4 m-2" alt="">
-                    </a>
-                    <a href="rap.html"> <img src="assets/img/rap.png" width="40" class="img-fluid ml-4 m-2 mt-3" alt="">
-                    </a>
-                    <a href="80s.html"> <img src="assets/img/la boule_1.png" width="30" class="img-fluid ml-4 m-2" alt="">
-                    </a>
-                    <a href="electro.html"> <img src="assets/img/electro.png" width="25" class="img-fluid ml-4 m-2" alt="">
-                    </a>
-                    <a href="assets/img/404.jpg"> <img src="assets/img/clip.png" width="40" class="img-fluid ml-4 m-2" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </nav>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
-        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous">
-    </script>
-=======
-<html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="assets/img/favicon.ico" />
-    <title>French platine</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <title>French platine</title>
 </head>
-
 
 <body id="bg-img-electro">
 
+    <div>
+
+        <nav id="color-pop">
+            <div class="buttonContainer container-fluid ">
+                <a class="homeButton" href="index.html">
+                    <img class="logo" src="assets/img/logo_100p.png" class="img-fluid" width="90">
+                </a>
+                <div class="d-none d-sm-none d-md-block d-lg-block">
+                    <input type="text" id="searchBarIndex" name="search" placeholder="Rechercher">
+                    <div class="d-flex justify-content-end  ">
+                        <button type="button" class="colorbutton m-0 text-light btn btn-lg pt-3 pb-3 border border-dark">Mon
+                            panier</button>
+                        <button type="button" class="colorbutton m-0 text-light btn btn-lg pt-3 pb-3 border border-dark">Mon
+                            compte</button>
+                    </div>
+                </div>
+                <div class="d-block d-sm-block d-md-none d-lg-none">
+                    <div class="d-flex flex-row justify-content-end ">
+                        <a data-toggle="collapse" href="#loupe" role="button" aria-expanded="false"
+                            aria-controls="collapseExample">
+                            <img src="assets/img/Fichier 8.png" alt="" width="30" class="img-fluid m-4">
+                        </a>
+                        <div class="collapse" id="loupe">
+                            <div class="card card-body">
+                                <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                            </div>
+                        </div>
+    
+                        <div>
+                            <a href=""><img src="assets/img/Fichier 7.png" alt="" width="50" class="img-fluid m-4"></a>
+                        </div>
+                        <div><a href=""><img src="assets/img/Fichier 5.png" alt="" width="30" class="img-fluid m-4"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-none d-sm-none d-md-none d-lg-block">
+                <div class="category">
+                    <div class="catBtnBox">
+                        <button class="catBtn" onclick="window.location.href='Pop-Rock.html';"> Pop rock </button>
+                        <button class="catBtn" onclick="window.location.href='rap.html'"> Rap </button>
+                        <button class="catBtn" onclick="window.location.href='80s.html';"> 80's </button>
+                        <button class="catBtn" onclick="window.location.href='electro.html';"> Electro </button>
+                        <button class="catBtn" onclick="window.location.href='assets/img/404.jpg';"> Clips </button>
+                    </div>
+                </div>
+            </div>
+            <div class=" d-block d-sm-block d-md-block d-lg-none">
+                <div class="category">
+                    <div class="catBtnBox d-flex justify-content-center ">
+                        <a href="Pop-Rock.html"> <img src="assets/img/pop.png" width="30" class="img-fluid ml-4 m-2" alt="">
+                        </a>
+                        <a href="Pop-Rock.html"> <img src="assets/img/rap.png" width="40" class="img-fluid ml-4 m-2 mt-3"
+                                alt="">
+                        </a>
+                        <a href="Pop-Rock.html"> <img src="assets/img/la boule_1.png" width="30" class="img-fluid ml-4 m-2"
+                                alt="">
+                        </a>
+                        <a href="Pop-Rock.html"> <img src="assets/img/electro.png" width="25" class="img-fluid ml-4 m-2"
+                                alt="">
+                        </a>
+                        <a href="Pop-Rock.html"> <img src="assets/img/clip.png" width="40" class="img-fluid ml-4 m-2"
+                                alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+    
+
+    <div class="container-fluid"  id="accordion">
+
+        <div class="row d-lg-none" id="tendance">
+            <h5 class="col-12 mt-5 text-center">
+                <button class="btn btn-link collapsed text-white text-decoration-none titleCategory" data-toggle="collapse" data-target="#collapseTendance" aria-expanded="false" aria-controls="collapseTendance">
+                    Tendances
+                </button>
+            </h5>
+        </div>
+
+        <div class="row justify-content-center"><h5 class="d-none d-lg-flex mt-5 mb-5 titleCategory">Tendances</h5></div>
+    
+        <div id="collapseTendance" class="row collapse show dont-collapse-lg d-lg-flex mb-5 text-center" aria-labelledby="tendance" data-parent="#accordion">
+            <div class="jacket col-6 col-lg-3">
+                <img src="assets/img\pop rock\poprockinvincible.jpg" class="img-fluid rounded" alt="Mickael Jackson">
+                <figcaption class="text-white">Mickael Jackson: Invincible</figcaption>
+            </div>
+            <div class="jacket col-6 h-100 col-lg-3">
+                <img src="assets/img\80\80's madonna_true_blue.jpg" class="img-fluid rounded" alt="Madonna">
+                <figcaption class="figure-caption text-white">Madonna: True blue</figcaption>
+            </div>
+            <div class="jacket col-6 h-100 col-lg-3">
+                <img src="assets/img\pop rock\poprockelton.jpg" class="img-fluid rounded" alt="Elton John">
+                <figcaption class="figure-caption text-white">Elton John: Sleeping with the past</figcaption>
+            </div>
+            <div class="jacket col-6 h-100 col-lg-3">
+                <img src="assets/img\rap\biggie_hypnotize.jpg" class="img-fluid rounded" alt="The Notorious BIG">
+                <figcaption class="figure-caption text-white">The Notorious BIG: Hypnotize</figcaption>
+            </div>
+        
+        </div> 
+
+        <hr>
+
+        <div class="row d-lg-none" id="news">
+            <h5 class="col-12 mt-5 text-center">
+                <button class="btn btn-link collapsed text-white text-decoration-none titleCategory" data-toggle="collapse" data-target="#collapseNews" aria-expanded="false" aria-controls="collapseNews">
+                Nouveautés
+                </button>
+            </h5>
+        </div>
+
+        <div class="row justify-content-lg-center"><h5 class="d-none d-lg-flex mt-5 mb-5 titleCategory">Nouveautés</h5></div>
+
+        <div id="collapseNews" class="row collapse show dont-collapse-lg d-lg-flex  text-center mb-5" aria-labelledby="news" data-parent="#accordion">
+            
+            <div class="jacket col-6 col-lg-3">
+                <img src="assets/img\rap\rap SPRI NOIR.jpg" class="img-fluid rounded" alt="SPRI NOIR">
+                <figcaption class="figure-caption text-white">SPRI NOIR: Masque Blanc</figcaption>
+            </div>
+            <div class="jacket col-6 col-lg-3">
+                <img src="assets/img\pop rock\pop rockERIC-CLAPTON-Clapton.jpeg" class="img-fluid rounded" alt="Eric Clapton">
+                <figcaption class="figure-caption text-white">Eric Clapton: CLAPTON</figcaption>
+            </div>
+            <div class="jacket col-6 col-lg-3">
+                <img src="assets/img\pop rock\pop rockweekend.jpg" class="img-fluid rounded" alt="The WeekEnd">
+                <figcaption class="figure-caption text-white">The Week End</figcaption>
+            </div>
+            <div class="jacket col-6 col-lg-3">
+                <img src="assets/img\rap\rap BOSH Dos_argente.jpg" class="figure-img img-fluid rounded" alt="Bosh">
+                <figcaption class="figure-caption text-white">Bosh: Dos Argenté</figcaption>
+            </div>
+        
+        </div>
+
+        <hr>
+
+        <div class="row d-lg-none" id="mostSold">
+            <h5 class="col-12 mt-5 text-center">
+                <button class="btn btn-link collapsed text-white text-decoration-none titleCategory" data-toggle="collapse" data-target="#collapseMostSold" aria-expanded="false" aria-controls="collapseMostSold">
+                    Les plus vendus
+                </button>
+            </h5>
+        </div>
+
+        <div class="row justify-content-lg-center"><h5 class="d-none d-lg-flex mt-5 mb-5 titleCategory">Les plus vendus</h5></div>
+
+        <div id="collapseMostSold" class="row collapse show dont-collapse-lg d-lg-flex text-center mb-5" aria-labelledby="mostSold" data-parent="#accordion">
+                
+            <div class="jacket col-6 col-lg-3">
+                <img src="assets/img\80\80 -DAVID BOWIE LEGACY.jpg" class="figure-img img-fluid rounded" alt="David Bowie">
+                <figcaption class="figure-caption text-white">David Bowie: Legacy</figcaption>
+            </div>
+            <div class="jacket col-6 col-lg-3">
+                <img src="assets/img\80\80Elton john DIAMONDS.jpg" class="figure-img img-fluid rounded" alt="Elton John">
+                <figcaption class="figure-caption text-white">Elton John: Diamonds</figcaption>
+            </div>
+            <div class="jacket col-6 col-lg-3">
+                <img src="assets/img\80\80 TINA TURNER SIMPLY THE BEST.jpg" class="figure-img img-fluid rounded" alt="Tina Turner">
+                <figcaption class="figure-caption text-white">Tina Turner: Simply The Best</figcaption>
+            </div>
+            <div class="jacket col-6 col-lg-3">
+                <img src="assets/img\80\80's bad.jpg" class="figure-img img-fluid rounded" alt="Mickael Jackson">
+                <figcaption class="figure-caption text-white">Mickael Jachson: BAD</figcaption>
+            </div>
+                
+        </div>
+
+        <hr>
+
+        <div class="row d-lg-none" id="soon">
+            <h5 class="col-12 mt-5 text-center">
+                <button class="btn btn-link collapsed text-white text-decoration-none titleCategory" data-toggle="collapse" data-target="#collapseSoon" aria-expanded="false" aria-controls="collapseSoon">
+                    A venir
+                </button>
+            </h5>
+        </div>
+
+        <div class="row justify-content-center"><h5 class="d-none d-lg-flex mt-5 mb-5 titleCategory">A venir</h5></div>
+
+        <div id="collapseSoon" class="row collapse show dont-collapse-lg d-lg-flex text-center mb-5" aria-labelledby="soon" data-parent="#accordion">
+            
+            <div class="jacket col-6 col-lg-3">
+                <img src="assets/img\pop rock\poprockinvincible.jpg" class="figure-img img-fluid rounded" alt="Michael Jackson">
+                <figcaption class="figure-caption text-white">Michael Jackson: Invincible</figcaption>
+            </div>
+            <div class="jacket col-6 col-lg-3">
+                <img src="assets/img\80\80's madonna_true_blue.jpg" class="figure-img img-fluid rounded" alt="Madonna">
+                <figcaption class="figure-caption text-white">Madonna: True blue</figcaption>
+            </div>
+            <div class="jacket col-6 col-lg-3">
+                <img src="assets/img\pop rock\poprockelton.jpg" class="figure-img img-fluid rounded" alt="Elton John">
+                <figcaption class="figure-caption text-white">Elton John: Sleeping with the past</figcaption>
+            </div>
+            <div class="jacket col-6 col-lg-3">
+                <img src="assets/img\rap\biggie_hypnotize.jpg" class="figure-img img-fluid rounded" alt="Notorious BIG">
+                <figcaption class="figure-caption text-white">The Notorious BIG: Hypnotize</figcaption>
+            </div>
+            
+        </div>
+  
+        <hr>
+
+    </div>
+
+    
     <!-- Footer -->
 
     <footer class="container-fluid" id="footer-color-electro">
@@ -196,15 +317,17 @@
 
     </footer>
 
-</html>
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-</script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-</script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous">
-</script>
->>>>>>> footer
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous">
+    </script>
+
 </body>
 
 </html>
